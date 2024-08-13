@@ -1,0 +1,200 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.content {
+    text-align: center;
+}
+
+.heading {
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-bottom:-10px;
+}
+
+.paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 40px;
+    max-width: 932px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sliderWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.sliderContainer {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.cardContainer {
+    display: flex;
+    min-width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.image {
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    flex-grow: 1;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.position {
+    font-size: 14px;
+    color: #777;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dot {
+    width: 32px;
+    height: 12px;
+    border-radius: 20px;
+    background:rgb(223, 222, 221);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.active {
+    background: orange;
+}
+
+
+/* Responsive Styles for Mobile Devices */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 40px; /* Adjust heading size for medium screens */
+    }
+
+    .paragraph {
+        font-size: 14px;
+        margin-bottom: 30px;
+        padding: 0 10px; /* Add padding for better text readability */
+    }
+
+    .card {
+        padding: 15px;
+        max-width: 90%; /* Ensure card fits better on smaller screens */
+        flex-direction: column; /* Stack content vertically for smaller screens */
+        text-align: center; /* Center-align text in card */
+    }
+
+    .image {
+        width: 180px;
+        height: 120px;
+        margin-right: 0; /* Remove margin for better vertical alignment */
+        margin-bottom: 15px; /* Space between image and text */
+    }
+
+    .name {
+        font-size: 16px;
+    }
+
+    .position {
+        font-size: 13px;
+    }
+
+    .dots {
+        margin-top: 15px; /* Increase margin for better spacing */
+    }
+
+    .dot {
+        width: 28px; /* Adjust dot size for better visibility on smaller screens */
+        height: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 30px; /* Further reduce heading size for small screens */
+    }
+
+    .paragraph {
+        font-size: 12px;
+        margin-bottom: 20px;
+        padding: 0 5px; /* Add padding for better text readability */
+    }
+
+    .card {
+        padding: 10px;
+        max-width: 95%; /* Ensure card fits better on very small screens */
+        flex-direction: column; /* Stack content vertically for small screens */
+        text-align: center; /* Center-align text in card */
+    }
+
+    .image {
+        width: 150px;
+        height: 100px;
+        margin-right: 0; /* Remove margin for better vertical alignment */
+        margin-bottom: 10px; /* Space between image and text */
+    }
+
+    .name {
+        font-size: 14px;
+    }
+
+    .position {
+        font-size: 12px;
+    }
+
+    .dots {
+        margin-top: 10px; /* Increase margin for better spacing */
+    }
+
+    .dot {
+        width: 24px; /* Adjust dot size for better visibility on small screens */
+        height: 6px;
+    }
+}

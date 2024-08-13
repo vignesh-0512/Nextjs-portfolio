@@ -1,0 +1,171 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 100px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .heading {
+    font-style: normal;
+    line-height: 98px;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+  
+  .paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    max-width: 932px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .links{
+    display: flex;
+    gap:30px;
+  }
+
+  .icons{
+    display: flex;
+    justify-content: center;
+    margin:40px;
+    height:60px;
+    width: 300px;
+  }
+
+  .icons i{
+    font-size: 30px;
+    margin:0 10px;
+    position:relative;
+    left:90px;
+  }
+
+  .name{
+    color:orange;
+  }
+
+
+
+  /* Mobile Devices (Portrait and Landscape) */
+@media (max-width: 767px) {
+  .container {
+    padding: 10px;
+    margin-top: 50px;
+  }
+
+  .heading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 100%;
+  }
+
+  .icons {
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons i {
+    font-size: 24px;
+    margin: 5px;
+    left: 0;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Tablets and Small Laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 15px;
+    margin-top: 70px;
+  }
+
+  .heading {
+    font-size: 40px;
+    line-height: 70px;
+  }
+
+  .paragraph {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 90%;
+  }
+
+  .icons {
+    height: auto;
+    width: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .icons i {
+    font-size: 26px;
+    margin: 0 8px;
+    left: 0;
+  }
+
+  .links {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+/* Laptops and Desktops */
+@media (min-width: 1025px) {
+  .container {
+    padding: 20px;
+    margin-top: 100px;
+  }
+
+  .heading {
+    font-size: 50px;
+    line-height: 98px;
+  }
+
+  .paragraph {
+    font-size: 21px;
+    line-height: 32px;
+    max-width: 932px;
+  }
+
+  .icons {
+    height: 60px;
+    width: 300px;
+    flex-direction: row;
+  }
+
+  .icons i {
+    font-size: 30px;
+    margin: 0 10px;
+    left: 90px;
+  }
+
+  .links {
+    flex-direction: row;
+    gap: 30px;
+  }
+}
+
+  

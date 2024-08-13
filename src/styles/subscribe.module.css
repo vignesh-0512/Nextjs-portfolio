@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.content {
+    text-align: center;
+}
+
+.heading {
+    font-style: normal;
+    line-height: 1.2; /* Adjusted for better readability */
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    max-width: 932px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form input {
+    height: 60px;
+    width: 100%; /* Full width input on all screens */
+    max-width: 600px; /* Limit max width */
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box; /* Ensure padding does not affect width */
+}
+
+.button {
+    background-color: orange;
+    height: 60px;
+    width: 100%; /* Full width button on all screens */
+    max-width: 150px; /* Limit max width */
+    border-radius: 10px;
+    margin: 20px; /* Adjust margin for better spacing */
+    box-sizing: border-box; /* Ensure padding does not affect width */
+}
+
+/* Responsive Styles for Tablets and Smaller Laptops */
+@media (max-width: 1024px) {
+    .heading {
+        font-size: 40px;
+    }
+
+    .paragraph {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .form input {
+        width: 100%; /* Full width input on tablets */
+    }
+
+    .button {
+        width: 100%; /* Full width button on tablets */
+        max-width: 200px; /* Adjust max width for better fit */
+    }
+}
+
+/* Responsive Styles for Mobile Devices */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 35px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .form input {
+        width: 100%; /* Full width input on smaller screens */
+    }
+
+    .button {
+        width: 100%; /* Full width button on smaller screens */
+        max-width: 200px; /* Adjust max width for better fit */
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 30px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .form input {
+        width: 100%; /* Full width input on small screens */
+    }
+
+    .button {
+        width: 100%; /* Full width button on small screens */
+        max-width: 200px; /* Adjust max width for better fit */
+    }
+}
