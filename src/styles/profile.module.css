@@ -93,6 +93,8 @@
   .container {
     margin: 40px 50px 0 50px;
     padding: 30px;
+    background-color: black;
+
   }
 
   .textContainer {
@@ -131,6 +133,7 @@
     align-items: center;
     margin: 20px;
     padding: 20px;
+    background-color: black;
   }
 
   .textContainer {
@@ -226,6 +229,8 @@
     .container {
       margin: 40px 50px 0 50px;
       padding: 30px;
+      background-color: black;
+
     }
   
     .textContainer {
@@ -264,6 +269,7 @@
       align-items: center;
       margin: 20px;
       padding: 20px;
+      background-color: black;
     }
   
     .textContainer {
@@ -307,6 +313,7 @@
     .container {
       margin: 10px;
       padding: 15px;
+      background-color: black;
     }
   
     .name {
