@@ -7,6 +7,7 @@
   padding: 20px;
   margin-top: 100px;
   box-sizing: border-box;
+  background-color: black;
 }
 
 /* Content styling */
@@ -106,5 +107,6 @@
 
   .container {
     margin-top: 50px;
+    background-color: black;
   }
 }
