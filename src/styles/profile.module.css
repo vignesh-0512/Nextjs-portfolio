@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: black;
-  color: white; 
+  background-color: black;
+  color: white;
   font-family: Arial, sans-serif;
   padding: 50px;
   margin-left: 110px;
@@ -23,16 +23,15 @@
 }
 
 .name {
-  font-size:25px;
+  font-size: 25px;
   color: orange;
 }
 
 .role {
   font-size: 60px;
   margin-top: 0px;
-  font-weight:600;
+  font-weight: 600;
 }
-
 
 .description {
   margin-top: 20px;
@@ -67,7 +66,7 @@
 .socialLinks {
   display: flex;
   justify-content: center;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .socialLinks i {
@@ -76,9 +75,8 @@
   font-size: 24px;
   cursor: pointer;
   position: relative;
-  top:200px;
+  top: 200px;
   right: 320px;
-
 }
 
 .socialLinks i:hover {
@@ -86,47 +84,7 @@
 }
 
 
-
-
-
-@media (max-width: 1200px) {
-  .container {
-    margin: 40px 50px 0 50px;
-    padding: 30px;
-    background-color: black;
-
-  }
-
-  .textContainer {
-    max-width: 60%;
-  }
-
-  .name {
-    font-size: 36px;
-  }
-
-  .role {
-    font-size: 28px;
-  }
-
-  .description {
-    font-size: 14px;
-  }
-
-  .hireMeButton {
-    font-size: 14px;
-    padding: 8px 16px;
-  }
-
-  .profileImage {
-    width: 250px;
-  }
-
-  .socialLinks i {
-    font-size: 20px;
-  }
-}
-
+/* Tablets and smaller screens */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -160,8 +118,7 @@
 
   .profileImage {
     width: 200px;
-    margin-top:30px;
-
+    margin-top: 30px;
   }
 
   .socialLinks {
@@ -174,6 +131,7 @@
   }
 }
 
+/* Mobile screens */
 @media (max-width: 480px) {
   .container {
     margin: 10px;
@@ -206,140 +164,3 @@
     font-size: 18px;
   }
 }
-
-.role {
-  font-size: 60px;
-  margin-top: 10px;
-  font-weight: 600;
-  line-height: 1.1;
-}
-
-.test {
-  display: block;
-  margin-left:100px;
-}
-
-.hireMeButton{
-    margin-top:30px;
-    width: 200px;
-    border-radius: 10px;
-  }
-
-  @media (max-width: 1200px) {
-    .container {
-      margin: 40px 50px 0 50px;
-      padding: 30px;
-      background-color: black;
-
-    }
-  
-    .textContainer {
-      max-width: 60%;
-    }
-  
-    .name {
-      font-size: 36px;
-    }
-  
-    .role {
-      font-size: 28px;
-    }
-  
-    .description {
-      font-size: 14px;
-    }
-  
-    .hireMeButton {
-      font-size: 14px;
-      padding: 8px 16px;
-    }
-  
-    .profileImage {
-      width: 250px;
-    }
-  
-    .socialLinks i {
-      font-size: 20px;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-      align-items: center;
-      margin: 20px;
-      padding: 20px;
-      background-color: black;
-    }
-  
-    .textContainer {
-      max-width: 100%;
-      text-align: center;
-    }
-  
-    .name {
-      font-size: 28px;
-    }
-  
-    .role {
-      font-size: 24px;
-    }
-  
-    .description {
-      font-size: 14px;
-    }
-  
-    .hireMeButton {
-      font-size: 14px;
-      padding: 8px 16px;
-    }
-  
-    .profileImage {
-      width: 200px;
-      margin-top: 30px;
-    }
-  
-    .socialLinks {
-      flex-direction: column;
-    }
-  
-    .socialLinks i {
-      font-size: 20px;
-      margin: 5px 0;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .container {
-      margin: 10px;
-      padding: 15px;
-      background-color: black;
-    }
-  
-    .name {
-      font-size: 24px;
-    }
-  
-    .role {
-      font-size: 20px;
-    }
-  
-    .description {
-      font-size: 12px;
-    }
-  
-    .hireMeButton {
-      font-size: 12px;
-      padding: 6px 12px;
-    }
-  
-    .profileImage {
-      width: 150px;
-    }
-  
-    .socialLinks i {
-      font-size: 18px;
-    }
-  }
-  
-  
