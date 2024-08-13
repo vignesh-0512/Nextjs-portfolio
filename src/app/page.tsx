@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar'; // Adjust path if needed
-import Profile from '../components/Profile'; // Ensure correct path and capitalization
+import Profile from '../components/profile'; // Ensure correct path and capitalization
 import About from '../components/About'; // Ensure correct path and capitalization
 import Services from '../components/Services'; // Ensure correct path and capitalization
 import MyProjects from '../components/projects'; // Ensure correct path and capitalization
