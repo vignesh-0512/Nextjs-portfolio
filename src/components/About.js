@@ -13,8 +13,6 @@ const About = () => {
         <p className={styles.description}>
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. 
           Aliquet donec morbi convallis pretium. Turpis tempus pharetra.
-          Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. 
-          Aliquet donec morbi convallis pretium. Turpis tempus pharetra.
         </p>    
 
       <div className={styles.range}>

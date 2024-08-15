@@ -1,4 +1,24 @@
-/* Base styles for the navbar */
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo {
+  width: 40px; 
+  height: 20px;
+  margin-right: 5px; 
+}
+
+.m {
+  font-weight: bold; 
+}
+
+.text {
+  margin-left: 5px;
+}
+
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -33,7 +53,7 @@
 }
 
 .btn a {
-  background-color: orange;
+  background-color: #FD6F00;
   color: white;
   padding: 0.5rem 1rem; 
   text-align: center;
@@ -43,7 +63,10 @@
   display: inline-block;
 }
 
-/* Responsive styles */
+.m{
+  font-weight: 900;
+}
+
 @media (max-width: 1200px) {
   .navbar {
     padding: 1rem;
@@ -74,14 +97,14 @@
   }
 
   .navLinks {
-    display: none; /* Hide navigation links by default */
+    display: none; 
     width: 100%;
     flex-direction: column;
     gap: 1rem;
   }
 
   .navLinks.active {
-    display: flex; /* Show navigation links when active */
+    display: flex;
   }
 
   .logo {

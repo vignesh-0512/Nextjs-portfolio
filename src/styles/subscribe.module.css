@@ -42,7 +42,7 @@
 }
 
 .button {
-    background-color: orange;
+    background-color: #FD6F00;
     height: 60px;
     width: 100%; /* Full width button on all screens */
     max-width: 150px; /* Limit max width */

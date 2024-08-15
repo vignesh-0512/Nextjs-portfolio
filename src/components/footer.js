@@ -6,7 +6,10 @@ const Footer = () => {
   return (  
     <div className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.heading}>Mumair</h1>
+      <h1 className={styles.heading}>
+  <img src="/images/image1.png" alt="Logo" className={styles.logo} />
+  <span className={styles.m}>M</span>umair
+</h1>
         <p className={styles.links}>
             <a href='#'>Home</a>
             <a href='#'>About Me</a>

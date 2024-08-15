@@ -24,7 +24,7 @@
 
 .name {
   font-size: 25px;
-  color: orange;
+  color: #FD6F00;
 }
 
 .role {
@@ -36,31 +36,32 @@
 .description {
   margin-top: 20px;
   font-size: 16px;
+  margin-right: 200px;
 }
 
 .hireMeButton {
-  background-color: orange;
-  color: black;
+  background-color:#FD6F00;
+  color: white;
   border: none;
   padding: 10px 20px;
   margin-top: 20px;
   cursor: pointer;
   font-weight: bold;
   font-size: 16px;
+  border-radius: 5px;
+  width: 180px;
 }
 
 .imageContainer {
   display: flex;
-  flex-direction: column; /* Align items vertically */
-  align-items: center; /* Center align the profile image and social links */
+  flex-direction: column; 
+  align-items: center; 
   position: relative;
 }
 
 .profileImage {
   width: 300px;
-  /* border-radius: 50%; */
-  /* border: 5px solid orange; */
-  margin-bottom: 20px; /* Space between profile image and social icons */
+  margin-bottom: 20px;
 }
 
 .socialLinks {
@@ -80,11 +81,17 @@
 }
 
 .socialLinks i:hover {
-  color: orange;
+  color: #FD6F00;
+}
+
+.test{
+   display: block;
+   position: relative;
+   left:150px;
+   margin-top:-20px;
 }
 
 
-/* Tablets and smaller screens */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -131,7 +138,6 @@
   }
 }
 
-/* Mobile screens */
 @media (max-width: 480px) {
   .container {
     margin: 10px;

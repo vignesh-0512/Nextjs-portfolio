@@ -6,6 +6,10 @@
     margin-top: 50px;
 }
 
+.p{
+    margin-top: 30px;
+}
+
 .content {
     text-align: center;
 }
@@ -108,7 +112,7 @@
 }
 
 .active {
-    background: orange;
+    background: #FD6F00;
 }
 
 

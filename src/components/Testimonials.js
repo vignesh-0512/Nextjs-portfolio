@@ -58,6 +58,10 @@ const Testimonials = () => {
     <div className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.heading}>Testimonials</h1>
+        <p className={styles.p}>
+        Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris est risus <br/>lectus. Phasellus consequat urna tellus   
+           </p>
+      
         <p className={styles.paragraph}>
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium
         </p>

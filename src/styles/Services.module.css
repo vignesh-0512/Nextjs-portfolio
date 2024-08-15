@@ -1,6 +1,4 @@
-/* Services.module.css */
 
-/* Base Styles */
 .container {
   display: flex;
   justify-content: center;
@@ -39,7 +37,6 @@
   margin: 0 auto;
 }
 
-/* Cards Grid */
 .cards {
   display: grid;
   grid-template-columns: 1fr;
@@ -75,9 +72,7 @@
   color: #000000;
 }
 
-/* Media Queries for Responsiveness */
 
-/* Tablets */
 @media (min-width: 600px) {
   .heading {
       font-size: 36px;
@@ -103,7 +98,6 @@
   }
 }
 
-/* Laptops */
 @media (min-width: 900px) {
   .heading {
       font-size: 42px;
@@ -128,7 +122,6 @@
   }
 }
 
-/* Desktops */
 @media (min-width: 1200px) {
   .heading {
       font-size: 50px;

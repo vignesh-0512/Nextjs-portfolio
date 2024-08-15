@@ -26,8 +26,7 @@ const MyProjects = () => {
     <div className={styles.content}>
       <h1 className={styles.heading}>My Projects</h1>
       <p className={styles.paragraph}>
-        Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium
-      </p>
+      Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris est risus <br/>lectus. Phasellus consequat urna tellus      </p>
      
       <button className={`${styles.button} ${styles.btn1}`}>All</button>
       <button className={`${styles.button} ${styles.btn2}`}>UI/UX</button>
